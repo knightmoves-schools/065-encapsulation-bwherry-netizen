@@ -2,7 +2,7 @@ let length = 5;
 let height = 10;
 
 
-Rectanglfunction calculateArea(length, height){
+function calculateArea(length, height){
     return length * height;
 }
 
@@ -16,6 +16,7 @@ class Rectangle {
     return this.length * this.height;
     }  
 }
+
 
 
 
