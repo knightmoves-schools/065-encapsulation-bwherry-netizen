@@ -12,10 +12,11 @@ class Rectangle {
         this.height = height;
     }
 
-    calculateArea() {
+    calculateArea {
     return this.length * this.height;
     }  
 }
+
 
 
 
