@@ -1,9 +1,10 @@
-let calculateArea = length * height;
 let length = 5;
 let height = 10;
 
 
-
+Rectanglfunction calculateArea(length, height){
+    return length * height;
+}
 
 class Rectangle {
     constructor(length, height){
@@ -15,5 +16,6 @@ class Rectangle {
     return this.length * this.height;
     }  
 }
+
 
 
